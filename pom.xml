@@ -22,6 +22,16 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <junit.version>5.6.2</junit.version>
+    <selenium.version>4.0.0</selenium.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <aspectj.version>1.8.13</aspectj.version>
+    <webdrivermanager.version>5.0.3</webdrivermanager.version>
+    <allure.version>2.15.0</allure.version>
+    <allure-maven.version>2.10.0</allure-maven.version>
+    <maven.surefire.plugin>2.22.0</maven.surefire.plugin>
+
   </properties>
 
   <dependencies>
@@ -54,4 +64,6 @@
 
 
   </dependencies>
+
+
 </project>
